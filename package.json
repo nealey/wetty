@@ -40,6 +40,7 @@
   "dependencies": {
     "@std/esm": "^0.12.1",
     "compression": "^1.7.1",
+    "emit-stream": "^0.1.2",
     "express": "^4.15.3",
     "fs-extra": "^4.0.1",
     "helmet": "^3.9.0",

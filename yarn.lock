@@ -1946,6 +1946,12 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
+emit-stream@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/emit-stream/-/emit-stream-0.1.2.tgz#0e205508a0d0d6d334607842f7c4769dbfbf16e8"
+  dependencies:
+    through "~2.3.4"
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
@@ -5960,7 +5966,7 @@ through2@^2.0.0:
     readable-stream "^2.1.5"
     xtend "~4.0.1"
 
-through@2, through@^2.3.6, through@~2.3, through@~2.3.1:
+through@2, through@^2.3.6, through@~2.3, through@~2.3.1, through@~2.3.4:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
