@@ -5,7 +5,7 @@ import * as fit from './fit';
 import './wetty.scss';
 
 Terminal.applyAddon(fit);
-const socket = io(window.location.origin, { path: '/wetty/socket.io' });
+const socket = io(window.location.origin, { path: window.location.pathname + 'socket.io' });
 
 socket.on('connect', () => {
   const term = new Terminal();
