@@ -5,7 +5,7 @@ import * as fit from './fit';
 import './wetty.scss';
 
 Terminal.applyAddon(fit);
-var userRegex = new RegExp("ssh/\[^/]+/$");
+var userRegex = new RegExp("ssh/\[^/]+$");
 var socketPath = window.location.pathname.replace(userRegex, "");
 var socket = io(window.location.origin, { path: socketPath + "socket.io" });
 

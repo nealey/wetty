@@ -16,4 +16,4 @@ RUN apk add -U openssh && \
 EXPOSE 3000
 COPY --from=builder /usr/src/app /app
 
-CMD yarn start
+ENTRYPOINT [ "/usr/local/bin/yarn", "start" ]
