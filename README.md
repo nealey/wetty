@@ -64,7 +64,8 @@ By default WeTTy will try to ssh to port `22`, if your host uses an alternative
 ssh port this can be specified with the flag `--sshport`.
 
 If you'd prefer an HTTP base prefix other than `/wetty`, you can specify that
-with `--base`.
+with `--base`. Do not set this to `/ssh/${something}`, as this will break
+username matching code.
 
 ### https
 
